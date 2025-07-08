@@ -1,5 +1,5 @@
 {% set name = "precession" %}
-{% set version = "2.0.3" %}
+{% set version = "2.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 9b420843cdca603bc3cadfad49fc21b570f133e75de663437666b870398941cf
+  sha256: 224b82d75ac7faf62259be1c2865bcd5f351ec20b14ca876ad525724ecdff7c0
 
 build:
   number: 0
